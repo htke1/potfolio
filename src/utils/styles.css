@@ -1,0 +1,119 @@
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#menu{
+    padding-left: 63vw;;
+}
+#smallText:hover{
+  transform: scale(1.5);
+}
+#bigText{
+    font-weight: 800;
+}
+#smallText{
+    font-weight: 400;
+    transition: transform .2s;
+}
+li{
+    padding-left: 1vw;
+    padding-right:1vw;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: black;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+#project{
+    
+}
+.card{
+  width: 27vw;
+  padding-top: 1vh;
+  transition: transform .2s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 400px) {
+  .card{
+    width: 40vw;
+  }
+  .card-text{
+    display:none;
+  }
+}
+
+#project-heading{
+    padding-bottom: 6vh;
+}
+#contact{
+    display: flex;
+    background-color: aquamarine;
+    box-shadow: black;
+}
+h2{
+  font-weight: 700;
+}
+
