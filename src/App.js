@@ -25,6 +25,16 @@ const toggleTheme = () => {
   }
 }
 
+// const observer = new IntersectionObserver(entry => {
+//   if (entry.isIntersecting) {
+//     // Add the animation class
+//     console.log("observing")
+//     entry.target.classList.add('square-animation');
+//   }
+// });
+
+// // Tell the observer which elements to track
+// observer.observe(document.querySelector('.lead'));
 
     return (
       <div>
@@ -38,10 +48,7 @@ const toggleTheme = () => {
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
-      <label className="switch mx-auto" id="toggle-label" >
-  <input type="checkbox" onChange={toggleTheme}/>
-  <span className="slider round"></span>
-</label>
+     
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="menu" className="navbar-nav mb-2 mb-lg-0">
           <li className="nav-item">
@@ -57,10 +64,12 @@ const toggleTheme = () => {
             <a className="nav-link " href="#contact" >Contact</a>
           </li>
         </ul>
-        <form>
-        </form>
+        
       </div>
-    
+      <label className="switch mx-auto" id="toggle-label" >
+  <input type="checkbox" onChange={toggleTheme}/>
+  <span className="slider round"></span>
+</label>
     </div>
   </nav>
 

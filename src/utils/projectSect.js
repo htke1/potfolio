@@ -1,11 +1,17 @@
 import Card from './card'
 import './styles.css'
-import Memo from './memo.jpg'
-import Social from './social.png'
+import Memo from './media/memo.jpg'
+import Social from './media/social.png'
+import Shopify from './media/shopify.jpg'
+import Chat from './media/chat.jpg'
 function Projects(){
+    
     return(
         <div id="project-div">
-            <center><h2 id="project-heading"><span className="badge badge-warning">PROJECT</span></h2></center>
+            
+            <center>
+  <p className="lead">PROJECT</p>
+</center>
         <section id="project">
             <div className="container">
             <div className="row">
@@ -14,14 +20,14 @@ function Projects(){
         </div>
         
         <div className="col-6 col-md-4">
-        <Card img={Social}  title="SocialMediocre"/>
+        <Card img={Social}  title="Social-Mediocre"/>
         </div>
         <div className="col-6 col-md-4">
-        <Card img={Memo}  title="Memo-MERN"/>
+        <Card img={Shopify}  title="Shopifi-React-App"/>
         </div>
         
         <div className="col-6 col-md-4">
-        <Card img={Social}  title="socialMediocre"/>
+        <Card img={Chat}  title="Chat-App"/>
         </div>
         </div>
         </div>

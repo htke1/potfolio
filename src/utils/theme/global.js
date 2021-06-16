@@ -18,6 +18,8 @@ export const GlobalStyles = createGlobalStyle`
   main {
     align-items: center;
     background: ${({ theme }) => theme.body};
+    background-repeat: no-repeat;
+    background-size: contain;
     color: ${({ theme }) => theme.text};
     display: flex;
     flex-direction: column;
@@ -36,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   #project-div{
-    background: ${({ theme }) => theme.body};
+    background: ${({ theme }) => theme.bodyPro};
     
   }
 

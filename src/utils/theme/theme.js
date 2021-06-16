@@ -1,4 +1,6 @@
-export const lightTheme = {
+
+ export const lightTheme = {
+  bodyPro: '#E2D2E3',
     body: '#E2E2E2',
     text: '#363537',
     navbar: '#363537',
@@ -8,6 +10,7 @@ export const lightTheme = {
   }
   
   export const darkTheme = {
+    bodyPro: '#403935',
     body: '#363537',
     navbar: "black",
     navtext: "#F2EDD7FF",
