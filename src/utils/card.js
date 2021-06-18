@@ -5,7 +5,7 @@ function Card(props){
         <div class="card-body">
           <h5 class="card-title">{props.title}</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://www.github.com/htke1/memoMern" class="btn btn-primary">Go somewhere</a>
+          <a href={props.url} class="btn btn-primary">Open Code</a>
         </div>
         </div>
     )

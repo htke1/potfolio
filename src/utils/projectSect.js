@@ -16,18 +16,18 @@ function Projects(){
             <div className="container">
             <div className="row">
                 <div className="col-6 col-md-4">
-        <Card img={Memo} title="Memo-MERN"/>
+        <Card img={Memo} title="Memo-MERN" url="https://github.com/htke1/memoMern"/>
         </div>
         
         <div className="col-6 col-md-4">
-        <Card img={Social}  title="Social-Mediocre"/>
+        <Card img={Social}  title="Social-Mediocre" url="https://github.com/htke1/socialMediocre" />
         </div>
         <div className="col-6 col-md-4">
-        <Card img={Shopify}  title="Shopifi-React-App"/>
+        <Card img={Shopify}  title="Shopify-React-App" url="https://github.com/htke1/shopifyApp"/>
         </div>
         
         <div className="col-6 col-md-4">
-        <Card img={Chat}  title="Chat-App"/>
+        <Card img={Chat}  title="Chat-App" url="https://github.com/htke1/chat-app"/>
         </div>
         </div>
         </div>

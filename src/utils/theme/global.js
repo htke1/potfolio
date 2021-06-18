@@ -43,7 +43,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 .card{
-  
+  background: ${({ theme }) => theme.cardBody};
 }
   
   `
