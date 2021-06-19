@@ -1,6 +1,6 @@
 ## Deployed from netlify
 
-https://60c85ecd07b355b4ece881d3--sherap-folio.netlify.app/
+https://60cc59490d9f12b8e59f86be--sherap-folio.netlify.app/
 
 # Getting Started with Create React App
 
